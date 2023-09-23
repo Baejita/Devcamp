@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 2px 2px 2px rgb(228, 228, 228);
+    padding: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    margin:6px ;
+    width: fit-content;
+}
+
+.text {
+    padding: 2px;
+    text-align: center;
+}
