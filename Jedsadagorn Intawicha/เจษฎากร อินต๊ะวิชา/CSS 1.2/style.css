@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #838383;
+  }
+  
+.oreangBG{
+    background-color: orange;
+    min-height: 600px;
+    width: 100%;
+}
+
+  header {
+
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 15%;
+  }
+  
+  nav img {
+    width: 150px;
+    margin-left: 0px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+    text-transform: uppercase;
+    
+  }
+  
+  nav ul li a {
+    color: #07003b;
+    text-decoration: none;
+  }
+
+  fieldset{
+    display: flex; 
+    padding: 9px 50px 20px 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: 40%;
+    max-width:  40%;
+    height: auto;
+    margin-top: -20%;
+  
+  }
+legend {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+   
+}
+
+  .hero {
+    display: block;
+    text-align: center;
+    font-weight: 10px;
+    color: #c4c4c4;
+   
+    
+  }
+  .hero h1 {
+    margin-bottom: 10px;
+  }
+  .hero h2 {
+    margin-bottom: 10px;
+  }
+  .hero button {
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border:  0px;
+    padding: 10px;
+  }
+
+.content1{  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -70px;
+    color: #333;
+    
+
+}
+
+
+.head2{
+    margin: 20px;
+    
+}
+h3 {
+    font-weight: bolder;
+    color: #000000;
+}
+
+
+.green {display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(162, 255, 198);
+    margin-top: -250px;
+}
+
+
+
+  .search {
+    position: relative;
+  }
+  
+  .search input[type=text] {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 150px;
+  }
+  
+  .search input[type=text]:focus {
+    outline: none;
+    background-color: rgba(50, 47, 47, 0.8);
+  }
+  
+  .search i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    margin-bottom: 100px;
+}
+.cards svg{
+    margin-left: 36%;
+    margin-top: 20px;
+    
+    height: 50px;
+    width: 50px;
+   
+}
+
+.card {display: inline;
+
+
+background-color: #000000;
+border-radius: 5px;
+
+margin-bottom: 20px;
+margin: 10px;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.card h3 {
+padding: 10px;
+text-align: center;
+color: #fff;
+}
+
+.content2 img{display: flex;
+    max-width: 100%;
+    max-block-size: 100%;
+   
+}
+
+.container1{background-image: url("./images/Baejita_Imagine_fresh_vegetables_perched_on_a_window_sill_of_an_8b5b57da-6f32-407c-8f97-1c1612da3e5b-transformed.png");
+    background-size: cover;
+    background-position: center;
+    height:90%;
+    display: flex;
+    justify-content: end;
+    margin-top: -300px;
+}
+.content3 {
+    display: inline-block;
+        justify-content: right; 
+    align-items: center;
+    width: 500px;
+   
+    color: green;
+   background-color: rgba(50, 47, 47, 0.8);
+   padding: 20px;
+   
+   margin-top: -50px;
+   
+
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+footer {
+padding: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.links {
+display: flex;
+justify-content: space-between;
+width: 60%;
+}
+
+.links ul {
+list-style: none;
+margin-right: 40px;
+}
+
+.links ul li {
+margin-bottom: 10px;
+}
+
+.links ul li a {
+color: #757575;
+text-decoration: none;
+}
+
+.links ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-logo img {
+width: 100px;
+}
