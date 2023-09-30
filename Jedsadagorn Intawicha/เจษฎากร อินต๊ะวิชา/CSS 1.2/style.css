@@ -11,7 +11,7 @@
   }
   
 .oreangBG{
-    background-color: orange;
+    background: linear-gradient(to bottom, #ff8605 0%, #0f2161 100%);
     min-height: 800px;
     width: 100%;
 }
@@ -201,6 +201,7 @@ h3 {
    margin-top: -100px;
     justify-content: end;
     margin-right: 10%;
+    padding: 10px;
   
 }
 
@@ -215,7 +216,7 @@ h3 {
     margin-right: 15%;
     justify-items: center;
    justify-content: space-around;
-
+}
 
 
 
