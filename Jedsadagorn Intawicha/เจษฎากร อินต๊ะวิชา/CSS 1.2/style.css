@@ -6,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     color: #838383;
   }
   
@@ -113,6 +113,34 @@
     
 }
 
+.box5{
+    background-image: url(./images/Baejita_Lions_The_King_of_the_SavannahHappy_Pastel_tones_Talkin_afee802e-d207-459f-8d2b-f100dfe155fc.png);
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    background-color: #fff;
+    margin-right: 100px;
+
+    display: flex;    
+    margin-left: 40%;
+    
+}
+
+
+.textHero2 {display: flex;
+    flex-direction: column;
+   margin-left: -40%;
+   border-left:  solid  100px rgb(27, 35, 80);
+   padding: 80px 60px 0px 40px;
+   background-color: rgb(255, 255, 255);
+   width: 50%;
+   
+
+}
+
+
 .buttonLearnmore{
     position: absolute;
     left: 20%;
@@ -135,7 +163,10 @@
     display: inline-block;
   }
 
-
+  .buttonLearnmore2{
+    margin-top: 30%;
+    margin-left: -35%;
+  }
 
 
 
@@ -164,6 +195,7 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  
 }
 
 .head2{
@@ -179,9 +211,7 @@ h3 {
 
 .card {display: inline;
     width: 200px;
-  
-
-
+    text-align: center;
 }
 
 .container1 .card{
@@ -189,12 +219,49 @@ h3 {
         width: 200px;
         border: #e6e6e6 solid 1px;
         padding: 20px;
-    
-    
-    
+        box-shadow: 1px 1px 1px 0px rgb(218, 218, 218);
     
 }
 
+.container2 .card{
+    display: inline-block;
+    margin-left: 40%;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+        width: 200px;
+        border: #e6e6e6 solid 1px;
+        padding: 20px;
+        box-shadow: 1px 1px 1px 0px rgb(218, 218, 218);
+    background-color: #fff;
+}
+
+.container3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+     
+        border: #e6e6e6 solid 1px;
+        padding: 20px;
+        box-shadow: 1px 1px 1px 0px rgb(218, 218, 218);
+
+}
+
+.container3 .card3{display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    text-align: center;
+  
+}
+.card3 {display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
 
 .category {
     display: flex;
@@ -216,12 +283,14 @@ h3 {
     margin-right: 15%;
     justify-items: center;
    justify-content: space-around;
+   margin-bottom: 40px;
 }
 
 
 
 .card img{
     justify-items: center;
+    background-color: #ffffff;
     
 }
 
@@ -229,6 +298,7 @@ h3 {
 padding: 10px;
 text-align: center;
 color: #000000;
+
 }
 
 
@@ -244,7 +314,10 @@ button{
     font-size: 16px;
 }
 
-
+.coppyright{
+    margin: 10px;
+    text-align: center;
+}
 
 
 footer {
