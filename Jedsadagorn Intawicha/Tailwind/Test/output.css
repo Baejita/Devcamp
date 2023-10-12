@@ -539,9 +539,66 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
+body {
+}
+
+.margin{
+  margin: 0% 16%;
+}
+
+nav{
+  color: aliceblue;
+  padding-top: 10px;
+}
+
+.head {
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Test/content/Baejita_Imagine_fresh_vegetables_staged_in_a_traditional_market_8a10db6a-a36f-4359-8805-d9e83169c9c5.png);
+}
+
+.logo{
+  margin-right: auto;
+}
+
+.telophone {
+  width: 100px;
+  transform: rotate(-90deg);
+  margin-left: auto;
+  padding: 2px;
+  border-radius: 20cap;
+  color: azure;
+  padding-top: 5%;
+}
+
+li {
+  font-size: small;
+}
+
+fieldset{
+  display: flex;
+  margin-left: 60%;
+  width: 300px;
+  transform: rotate(-90deg);
+  border: 5px solid rgb(255, 255, 255);
+}
+
+legend {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  transform: rotate(90deg);
+}
+
+p{
+  color: aliceblue
+}
+
 h2 {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 body {
@@ -550,7 +607,7 @@ body {
 
 h1 {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .button {
