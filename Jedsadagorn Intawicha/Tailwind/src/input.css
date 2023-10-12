@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 h2 {
-    @apply text-blue-800;
+  @apply text-blue-600;
 }
 
 body {
-    background-color: rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
 }
 
 h1 {
-   @apply
-    text-white; 
+  @apply text-black;
 }
 
-.button{
-    @apply text-gray-600;
-    @apply hover:text-black;
-    @apply hover:bg-slate-500;
-   
+.button {
+  @apply text-gray-600;
+  @apply hover:text-black;
+  @apply hover:bg-slate-500;
 }
