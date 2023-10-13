@@ -2,44 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  
 }
 
-.margin{
+.margin {
   margin: 0% 16%;
 }
 
-nav{color: aliceblue;
+nav {
+  color: aliceblue;
   padding-top: 10px;
 }
 
-.head { height: 600px;
+.head {
+  height: 600px;
   background-position: center;
   background-size: cover;
   background-image: url(../Test/content/Baejita_Imagine_fresh_vegetables_staged_in_a_traditional_market_8a10db6a-a36f-4359-8805-d9e83169c9c5.png);
-
 }
 
-.logo{
+.logo {
   margin-right: auto;
 }
 
-.telophone { width: 100px;
+.telophone {
+  width: 100px;
   transform: rotate(-90deg);
   margin-left: auto;
   padding: 2px;
-  border-radius: 20cap;
+  border-radius: 20px;
   color: azure;
   padding-top: 5%;
 }
 
 li {
   font-size: small;
-  
 }
 
-fieldset{
-  display: flex; 
+fieldset {
+  display: flex;
   margin-left: 60%;
   width: 300px;
   transform: rotate(-90deg);
@@ -52,15 +52,42 @@ legend {
   font-size: xx-large;
   font-weight: bolder;
   transform: rotate(90deg);
+}
+
+.boximage {
+  width: 400px;
+  height: 400px;
+  background-position: left;
+  background-size: cover;
+  background-image: url(../Test/content/Baejita_Imagine_fresh_vegetables_perched_on_a_window_sill_of_an_8b5b57da-6f32-407c-8f97-1c1612da3e5b.png);
+  box-shadow: 4px 3px 20px;
+}
+
+/* .tabcolr{
+  margin-top: 20%;
+} */
+
+p {
+  @apply text-sm;
+  @apply font-thin;
+  color: aliceblue;
+}
+
+.box {
+  @apply flex;
+  @apply justify-center;
   
 }
 
-p{
-  color: aliceblue
+.card{
+  display: flex;
+  width: 200px;
+  
+  @apply justify-center;
+  
 }
-
 h2 {
-  @apply text-blue-200;
+  @apply text-black;
 }
 
 body {
