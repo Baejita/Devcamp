@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   padding-top: 10px;
 }
 
@@ -30,7 +30,7 @@ nav {
   margin-left: auto;
   padding: 2px;
   border-radius: 20px;
-  color: azure;
+  color: rgb(231, 255, 255);
   padding-top: 5%;
 }
 
@@ -63,6 +63,23 @@ legend {
   box-shadow: 4px 3px 20px;
 }
 
+.container2{
+  background-image: url(../Test/content/Baejita_wild_landscape_beutiful__sunshine_flower_use_golden_rat_28622c1f-7686-4d05-9e66-ccae89381073-PgY5Qh3M5-transformed.jpeg);
+  background-position: center;
+ background-size: cover;
+  height: 300px;
+  
+}
+
+.box3{
+  margin-left: 40%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  margin-top: -4%;
+  padding-left: 20px;
+}
+
 /* .tabcolr{
   margin-top: 20%;
 } */
@@ -79,14 +96,21 @@ p {
   
 }
 
-.card{
-  display: flex;
+.card {
   width: 200px;
   
-  @apply justify-center;
-  
+}
+.cardimage{
+  background-image: url(../Test/content/Baejita_wild_landscape_beutiful__sunshine_flower_use_golden_rat_28622c1f-7686-4d05-9e66-ccae89381073-PgY5Qh3M5-transformed.jpeg);
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  margin: 0% auto;
+  margin-bottom: 10px;
 }
 h2 {
+  margin-bottom: 4px;
   @apply text-black;
 }
 
@@ -102,4 +126,14 @@ h1 {
   @apply text-gray-600;
   @apply hover:text-black;
   @apply hover:bg-slate-500;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+}
+
+h4 {
+  @apply font-bold;
+  @apply text-sm;
 }
