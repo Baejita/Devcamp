@@ -63,15 +63,14 @@ legend {
   box-shadow: 4px 3px 20px;
 }
 
-.container2{
+.container2 {
   background-image: url(../Test/content/Baejita_wild_landscape_beutiful__sunshine_flower_use_golden_rat_28622c1f-7686-4d05-9e66-ccae89381073-PgY5Qh3M5-transformed.jpeg);
   background-position: center;
- background-size: cover;
+  background-size: cover;
   height: 300px;
-  
 }
 
-.box3{
+.box3 {
   margin-left: 40%;
   padding-top: 10%;
   padding-bottom: 5%;
@@ -93,14 +92,12 @@ p {
 .box {
   @apply flex;
   @apply justify-center;
-  
 }
 
 .card {
   width: 200px;
-  
 }
-.cardimage{
+.cardimage {
   background-image: url(../Test/content/Baejita_wild_landscape_beutiful__sunshine_flower_use_golden_rat_28622c1f-7686-4d05-9e66-ccae89381073-PgY5Qh3M5-transformed.jpeg);
   height: 150px;
   width: 150px;
