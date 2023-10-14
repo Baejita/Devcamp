@@ -13,15 +13,23 @@ nav {
   padding-top: 10px;
 }
 
-.head {
+/* .head {
   height: 600px;
   background-position: center;
   background-size: cover;
   background-image: url(../Test/content/Baejita_Imagine_fresh_vegetables_staged_in_a_traditional_market_8a10db6a-a36f-4359-8805-d9e83169c9c5.png);
-}
+} */
 
 .logo {
   margin-right: auto;
+}
+
+.hero-back {
+  width: 100%;
+  height: calc(100vh);
+  background: url(../Test/content/Baejita_Imagine_fresh_vegetables_staged_in_a_traditional_market_8a10db6a-a36f-4359-8805-d9e83169c9c5.png) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
 }
 
 

@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Realastate</title>
-    <link rel="stylesheet" href="output.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test ZOOM out</title>
+    <link rel="stylesheet" href="../Tailwind/src/input.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="head">
+    <div class="hero-back">
       <div class="margin">
         <nav class="flex">
           <div class="logo">
@@ -294,5 +296,16 @@
         </p>
       </footer>
     </div>
+
+    <script type="text/javascript">
+
+      $(window).scroll(function() {
+            var scrollPos = $(this).scrollTop();
+            $(".hero-back").css({
+                  'background-size' : 100 + scrollPos + '%'      
+            });
+      });
+
+      </script>
   </body>
 </html>
