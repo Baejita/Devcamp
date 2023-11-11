@@ -1,220 +1,166 @@
-console.log('------------------Homework--------1.1----------')
+//การบ้าน javaSript
+console.log('========= การบ้าน 1.1 ========')
+let text = ''
 const draw1 = function (n) {
-  let text = ''
   for (let i = 0; i < n; i++) {
     text += '*'
-    console.log(text)
   }
+  console.log(text)
 }
+draw1(8)
 
-draw1(2)
-draw1(3)
-draw1(4)
-
-console.log('------------------Homework--------1.2----------')
+console.log('========= การบ้าน 1.2 ========')
+let text2 = ''
 const draw2 = function (n) {
-  let text = ''
-
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
-      text += '*'
+      text2 += '*'
     }
-
-    text += '\n'
+    text2 += '\n'
   }
-  console.log(text)
+  console.log(text2)
 }
+draw2(5)
 
-draw2(2)
-draw2(3)
-draw2(4)
-console.log('------------------Homework--------1.3----------')
+console.log('========= การบ้าน 1.3 ========')
+
+let text3 = ''
 const draw3 = function (n) {
-  let text = ''
-
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      text += j + 1
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+      text3 += j
     }
-
-    text += '\n'
+    text3 += '\n'
   }
-  console.log(text)
+  console.log(text3)
 }
+draw3(5)
 
-draw3(2)
-draw3(3)
-draw3(4)
-
-console.log('------------------Homework--------1.4----------')
+console.log('========= การบ้าน 1.4 ========')
+let text4 = ''
+// External loop
 const draw4 = function (n) {
-  let text = ''
-
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      text += i + 1
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
+    for (let j = 1; j <= n; j++) {
+      text4 += i
     }
-
-    text += '\n'
+    text4 += '\n'
   }
-  console.log(text)
+  console.log(text4)
 }
+draw4(5)
 
-draw4(2)
-draw4(3)
-draw4(4)
-
-console.log('------------------Homework--------1.5----------')
+console.log('========= การบ้าน 1.5 ========')
+let text5 = ''
+// External loop
 const draw5 = function (n) {
-  let text = ''
-
-  for (let i = n; i > 0; i--) {
-    for (let j = 0; j < n; j++) {
-      text += i
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
+    for (let j = 1; j <= n; j++) {
+      text5 += n + 1 - i
     }
-    text += '\n'
+    text5 += '\n'
   }
-  console.log(text)
+  console.log(text5)
 }
-
-draw5(2)
-draw5(3)
 draw5(4)
 
-console.log('------------------Homework--------1.6----------')
+console.log('========= การบ้าน 1.6 ========')
+
+let text6 = ''
+let count = 1
+// External loop
 const draw6 = function (n) {
-  let text = ''
-  let count = 0
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      ++count
-      text += count
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
+    for (let j = 1; j <= n; j++) {
+      text6 += count
+      count++
     }
-    text += '\n'
+    text6 += '\n'
   }
-
-  console.log(text)
+  console.log(text6)
 }
-draw6(2)
 draw6(3)
-draw6(4)
 
-console.log('------------------Homework--------1.7----------')
+console.log('========= การบ้าน 1.7 ========')
+let text7 = ''
+
+// External loop
 const draw7 = function (n) {
-  let text = ''
-  let count = n * n + 1
-
-  for (let i = n; i > 0; i--) {
-    for (let j = 0; j < n; j++) {
-      --count
-      text += count
+  for (let i = n ** 2; i >= 1; i--) {
+    // Internal loop
+    if (i % n === 0) {
+      text7 += '\n'
     }
-
-    text += '\n'
+    text7 += i
   }
-
-  console.log(text)
+  console.log(text7)
 }
-draw7(2)
-draw7(3)
 draw7(4)
 
-console.log('------------------Homework--------1.8----------')
+console.log('========= การบ้าน 1.8 ========')
+let text8 = ''
+
+// External loop
 const draw8 = function (n) {
-  let text = ''
-
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {}
-
-    text += i * 2
-    text += '\n'
+  for (let i = 0; i <= n; i += 2) {
+    // Internal loop
+    text8 += i + '\n'
   }
-
-  console.log(text)
+  console.log(text8)
 }
-draw8(2)
-draw8(3)
 draw8(4)
 
-console.log('------------------Homework--------1.9----------')
+console.log('========= การบ้าน 1.9 ========')
+let text9 = ''
+
+// External loop
 const draw9 = function (n) {
-  let text = ''
-
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {}
-
-    text += i * 2 + 2
-    text += '\n'
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
+    for (let j = 1; j <= 1; j++) {
+      text9 += i * 2
+    }
+    text9 += '\n'
   }
-
-  console.log(text)
+  console.log(text9)
 }
-draw9(2)
-draw9(3)
 draw9(4)
 
-console.log('------------------Homework--------1.10----------')
+console.log('========= การบ้าน 1.10 ========')
+
+let text10 = ''
+let count10 = ''
+// External loop
 const draw10 = function (n) {
-  let text = ''
-  let count = 0
-  let count2 = 0
-
-  for (let i = 0; i < n; i++) {
-    count = i + 1
-    for (let j = 0; j < n; j++) {
-      count2 = j + 1
-      text += count2 * count
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
+    for (let j = 0; j < n; j += i) {
+      text10 += i + j
     }
-
-    text += '\n'
+    text10 += '\n'
   }
-
-  console.log(text)
+  console.log(text10)
 }
-draw10(2)
-draw10(3)
 draw10(4)
 
-console.log('------------------Homework--------1.11----------')
+console.log('========= การบ้าน 1.11 ========')
+
+debugger
+let text11 = ''
+let count11 = ''
+// External loop
 const draw11 = function (n) {
-  let text = ''
+  for (let i = 1; i <= n; i++) {
+    // Internal loop
 
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      if (i == j) {
-        text += '-'
-      } else {
-        text += '*'
-      }
+    for (let j = 1; j < n; j++) {
+      text10 += i + j
     }
-
-    text += '\n'
+    text10 += '\n'
   }
-
-  console.log(text)
+  console.log(text11)
 }
-draw11(2)
-draw11(3)
 draw11(4)
-
-console.log('------------------Homework--------1.12----------')
-const draw12 = function (n) {
-  let text = ''
-
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
-      if (j == n - i - 1) {
-        text += '-'
-      } else {
-        text += '*'
-      }
-    }
-
-    text += '\n'
-  }
-
-  console.log(text)
-}
-draw12(2)
-draw12(3)
-draw12(4)
